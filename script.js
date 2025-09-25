@@ -4,15 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
         "1-100": {
             "Mukadimah": [
                 {
-                    nadzom: "نَظْمُ ابْنِ مَالِكٍ فِي النَّحْوِ",
-                    penjelasan: "Ini adalah mukadimah yang menjelaskan tujuan penulisan Alfiyah Ibnu Malik."
-                },
-                {
                     nadzom: "قَالَ مُحَمَّدٌ هُوَ ابْنُ مَالِكِ ۞ أَحْمَدُ رَبِّي اللَّهَ خَيْرَ مَالِكِ",
                     penjelasan: "Muhammad, yaitu Ibnu Malik, berkata.\nAku memuji Tuhanku, Allah, sebaik-baik Raja."
                 },
                 {
-                    nadzom: "مُصَلِّيًا عَلَى النَّبِيِّ الْمُصْطَفَى ۞ وَآلِهِ الْغُرِّ الْكِرَامِ الشُّرَفَا",
+                    nadzom: "مُصَلِّيًا عَلَى النَّبِيِّ الْمُصْطَفَى ۞ وآلِهِ المُسْتكْمِلِينَ الشَّرَفَا",
                     penjelasan: "Sambil bershalawat kepada Nabi yang terpilih.\nDan keluarganya yang mulia, terhormat, dan agung."
                 },
                 {
@@ -42,11 +38,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     penjelasan: "Kalimat menurut nahwu adalah lafadz yang memberi faedah sempurna, seperti ucapan \"berdirilah\".\nIsim, fi'il, kemudian huruf adalah kalim (kata-kata)."
                 },
                 {
-                    nadzom: "وَاحِدُهُ كَلِمَةٌ وَالْقَوْلُ عَمْ ۞ فَالْكَلِمَةُ قَوْلٌ مُفْرَدٌ كَجِئْ",
+                    nadzom: "وَاحِدُهُ كَلِمَةٌ وَالْقَوْلُ عَمْ ۞ وَكِلْمَةٌ بِهَا كَلاَمٌ قَدْ يُؤَمْ",
                     penjelasan: "Satuannya adalah kalimah, sedangkan \"qoul\" lebih umum dari kalimah.\nKalimah adalah qoul yang mufrad (tunggal), seperti kata \"جِئْ\" (datanglah)."
                 },
                 {
-                    nadzom: "وَبِالْجَرِّ وَالتَّنْوِينِ وَالنِّدَا ۞ وَأَلْ وَمُسْنَدٍ لِلاِسْمِ تَمْيِيزٌ حَصَلْ",
+                    nadzom: "بِالْجَرِّ وَالتَّنْوِينِ وَالنِّدَاوَأَلْ ۞ وَمُسْنَدٍ لِلاِسْمِ تَمْيِيزٌ حَصَلْ",
                     penjelasan: "Dan dengan jar, tanwin, dan nida'.\nSerta alif lam dan musnad (disandarkan) kepada isim, maka telah jelas perbedaannya."
                 },
                 {
@@ -62,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     penjelasan: "Dan fi'il madhi, bedakanlah dengan ta' (ta' fa'il atau ta' ta'nits).\nDengan nun (taukid), fi'il amr jika perintah dipahami."
                 },
                 {
-                    nadzom: "وَالْأَمْرُ إِنْ لَمْ يَكُ لِلنُّونِ مَحَلْ ۞ فِيهِ هُوَ اسْمُ فِعْلٍ وَذَاكَ حَيْثُ حَلْ",
+                    nadzom: "وَالْأَمْرُ إِنْ لَمْ يَكُ لِلنُّونِ مَحَلْ ۞ فِيهِ هُوَ اسْمٌ نَحْوُ صَهْ وَحَيَّهَلْ",
                     penjelasan: "Dan fi'il amr, jika tidak ada tempat untuk nun (taukid).\nDi dalamnya, ia adalah isim fi'il, dan itu di mana pun ia berada."
                 },
             ],
@@ -449,3 +445,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial display
     displayBaitRanges();
 });
+
