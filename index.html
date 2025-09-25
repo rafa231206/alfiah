@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitab Alfiyah Ibnu Malik</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-book-open"></i> Kitab Alfiyah Ibnu Malik</h1>
+        <p>Ringkasan Ilmu Nahwu dan Shorof dalam bentuk Nadzom</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2><i class="fas fa-info-circle"></i> Pengantar</h2>
+    <p>Kitab Alfiyah Ibnu Malik adalah karya penting dalam ilmu Nahwu dan Shorof. Disusun dalam bentuk nadzom sekitar seribu bait, kitab ini menjadi rujukan utama untuk memahami tata bahasa Arab.</p>
+    <p>Melalui halaman ini, Anda bisa mempelajari nadzom beserta penjelasan singkat dalam bahasa Indonesia.</p>        </section>
+
+        <section class="nadzom-selection">
+            <h2><i class="fas fa-list-ol"></i> Pilih Rentang Bait</h2>
+            <div class="bait-range-container" id="baitRangeContainer">
+                <!-- Bait range buttons will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <section class="chapter-selection" id="chapterSelection" style="display: none;">
+            <h2><i class="fas fa-book"></i> Pilih Bab</h2>
+            <div class="chapter-list-container" id="chapterListContainer">
+                <!-- Chapter buttons will be loaded here by JavaScript -->
+            </div>
+            <!-- Tombol kembali ke pilihan rentang bait -->
+            <button id="backToRangesFromChapters" class="back-button" style="display: none;"><i class="fas fa-arrow-left"></i> Kembali ke Pilihan Rentang Bait</button>
+        </section>
+
+        <section class="nadzom-list" id="nadzomListSection" style="display: none;">
+            <h2><i class="fas fa-list-alt"></i> Daftar Nadzom <span id="currentChapterTitle"></span></h2>
+            <div class="accordion-container" id="nadzomAccordion">
+                <!-- Nadzom items will be loaded here by JavaScript -->
+            </div>
+            <button id="backToChapters" class="back-button" style="display: none;"><i class="fas fa-arrow-left"></i> Kembali ke Pilihan Bab</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kitab Alfiyah Ibnu Malik. Dibuat oleh Rafa_.2312.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
