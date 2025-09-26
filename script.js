@@ -9,15 +9,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 },
                 {
                     nadzom: "مُصَلِّيًا عَلَى النَّبِيِّ الْمُصْطَفَى ۞ وآلِهِ المُسْتكْمِلِينَ الشَّرَفَا",
-                    penjelasan: "Sambil bershalawat kepada Nabi yang terpilih.\nDan keluarganya yang mulia, terhormat, dan agung."
+                    penjelasan: "seraya berselawat atas nabi terpilih. \nDan untuk keluarganya yang menyempurnakan kemuliaan."
                 },
                 {
                     nadzom: "وَأَسْتَعِينُ اللَّهَ فِي أَلْفِيَّهْ ۞ مَقَاصِدُ النَّحْوِ بِهَا مَحْوِيَّهْ",
-                    penjelasan: "Dan aku memohon pertolongan Allah dalam (menyusun) Alfiyah ini.\nYang dengannya tujuan-tujuan ilmu nahwu terangkum."
+                    penjelasan: "aku memohon pertolongan Allah dalam (menyusun) kitab Alfiyah ini.\nDi dalamnya terkandung (penjelasan) yang dimaksud ilmu Nahwu."
                 },
                 {
                     nadzom: "تُقَرِّبُ الْأَقْصَى بِلَفْظٍ مُوجَزِ ۞ وَتَبْسُطُ الْبَذْلَ بِوَعْدٍ مُنْجَزِ",
-                    penjelasan: "Ia mendekatkan yang jauh dengan lafadz yang ringkas.\nDan ia membentangkan pemberian (ilmu) dengan janji yang terpenuhi."
+                    penjelasan: "Mendekatkan yang jauh dengan ungkapan yang diringkas, \nMemberi pemberian dengan janji yang terlaksana."
                 },
                 {
                     nadzom: "وَتَقْتَضِي رِضًا بِغَيْرِ سُخْطِ ۞ فَائِقَةً أَلْفِيَّةَ ابْنِ مُعْطِي",
@@ -445,4 +445,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial display
     displayBaitRanges();
 });
+
 
